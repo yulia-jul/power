@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(124.53deg, #FC3F5F 0%, #7D61FF 100.32%);
+    padding: 95px;
+}
+.conteiner {
+    background: linear-gradient(180deg, rgba(43, 34, 21, 0.8) -1.22%, #22282E 101.33%);
+    box-shadow: 0px 0px 250px rgba(0, 0, 0, 0.3);
+    border-radius: 32px;
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
+/* header block */
+.header {
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo, .header_download {
+    min-width: 180px;
+}
+.header_download {
+    text-align: right;
+}
+.header_nav ul {
+    padding-left: 0;
+    display: flex;
+    gap: 64px;
+}
+.header_nav li {
+    list-style: none;
+}
+.header_nav a {
+    list-style: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A0A3A7;
+    text-decoration: none;
+}
+.header_btn {
+    display: inline-block;
+    padding: 16px 24px;
+    background: linear-gradient(93.22deg, #E1E1E1 8.37%, #FFFFFF 99.95%);
+    box-shadow: 0px 4px 50px rgba(37, 37, 37, 0.08), inset 1px 1px 1px rgba(135, 135, 135, 0.32);
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #24282E;
+    text-decoration: none;
+}
+/* header ahd */
+
+/* main block */
+.main {
+    text-align: center;
+    padding: 180px 20px 161px 20px;
+}
+.main_title {
+    max-width: 600px;
+    width: 100%;
+    margin: 0;
+    margin-inline: auto;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    text-align: center;
+    color: #F2F4F7;
+    margin-bottom: 32px;
+}
+.main_desk {
+    max-width: 600px;
+    width: 100%;
+    margin: 0;
+    margin-inline: auto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #F2F4F7;
+    margin-bottom: 80px;
+}
+.main_btn {
+    display: inline-block;
+    border: 2px solid #FC40F4;
+    border-radius: 999px;
+    padding: 16px 32px; 
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FC40F4;
+    text-decoration: none;
+    min-width: 240px;
+    margin-bottom: 64px;
+}
+.main_icons {
+    display: flex;
+    gap: 32px;
+    padding: 16px;
+    justify-content: center;
+}
+/* main and */
